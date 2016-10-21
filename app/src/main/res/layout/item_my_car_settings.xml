@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <ru.allmoyki.may.widget.state.StateTextView
+        android:id="@+id/tvModel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_edittext_reg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="40dp"
+        android:text="Mazdaewf wef wen wnniger igneri gie         rg oierge erwg rw gre"
+        android:textColor="@color/text_color"
+        android:textSize="17dp" />
+
+    <ru.allmoyki.may.widget.state.StateImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/icon_close" />
+
+
+</RelativeLayout>

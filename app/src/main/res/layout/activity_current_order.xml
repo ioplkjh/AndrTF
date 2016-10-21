@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".may.activity.CurrentOrder">
+
+    <include layout="@layout/header_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvOrderStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Текущий заказ:"
+                    android:textColor="@color/text_color"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvOrderTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="09-30"
+                    android:textColor="@color/btn_color_get_code"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvOrderDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(2015-08-20)"
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="1dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Автомойка:"
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvOrderCarwashName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Ближайшая автомойка"
+                    android:textColor="@color/btn_color_get_code"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvAdress"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="#E0E0E0"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/icon_map_search"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:text="ehtr h hry hrt htr htr htraefew few few few few few f htr htrh"
+                android:textColor="@color/text_color" />
+
+            <LinearLayout
+                android:id="@+id/lServices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Заказанные услуги:"
+                    android:textColor="@color/text_color"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvOrderCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Сумма: 600 руб"
+                android:textColor="@color/text_color"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/lReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#E0E0E0"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="25dp"
+                    android:text="г. Запорожье , ул. erg er greg erg er g weg erg er Победы, 7"
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingLeft="70dp"
+                    android:text="г. Запорожье , ул. erg er greg erg er g weg erg er Победы, 7"
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ru.allmoyki.may.widget.state.StateButton
+        android:id="@+id/btnEndOrder"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_btn_reg_line"
+        android:gravity="center"
+        android:text="ОТМЕНИТЬ ЗАКАЗ"
+        android:textColor="@color/btn_color_get_code" />
+
+    <ru.allmoyki.may.widget.state.StateButton
+
+        android:id="@+id/btnSendReview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_btn_reg"
+        android:gravity="center"
+        android:text="НАПИСАТЬ ОТЗЫВ"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    android:background="@drawable/round_marker"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:src="@mipmap/logo_carwash" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ближайшая автомойка"
+            android:textColor="#2DB297"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_lng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="адрес"
+            android:textSize="12dp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingRight="10dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/icon_aarrow"/>
+</LinearLayout>

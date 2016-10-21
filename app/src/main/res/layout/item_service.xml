@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/checkboxService"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:button="@drawable/check_box_selector_service"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="fdbfdb dfhd bhdf bdfb d reg rege rger gegre greg reg reregreg er gre  erg erg reg re erg erg erg erg f"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#666666"
+        android:paddingRight="65dp"
+        android:textSize="19dp" />
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|right"
+        android:layout_width="60dp"
+        android:paddingLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#666666"
+        android:textSize="19dp"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:text="3000"/>
+</RelativeLayout>

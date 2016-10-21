@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RadioButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/selector_radiogroup_time"
+        android:button="@android:color/transparent"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="08:00"
+        android:textColor="@drawable/selector_text_radiogroup_time"
+        android:textSize="16dp" />
+

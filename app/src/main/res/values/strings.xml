@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Май авто Киров</string>
+
+    <string-array name="names">
+        <item>Мойка</item>
+        <item>Полировка</item>
+        <item>Мойка пеной</item>
+        <item>Мойка пеной</item>
+        <item>Мойка пеной</item>
+        <item>Мойка пеной</item>
+
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_sms_code">ПОЛУЧИТЬ КОД</string>
+    <string name="hint_number_phone">Номер телефона</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_code_from_sms">Пароль из смс</string>
+    <string name="confirm_sms_code">ПОДТВЕРДИТЬ</string>
+
+    <!--drawer title-->
+    <string name="dr_map">КАРТА</string>
+    <string name="dr_search">ПОИСК</string>
+    <string name="dr_orders">МОИ ЗАКАЗЫ</string>
+    <string name="dr_settings">НАСТРОЙКИ</string>
+    <string name="dr_entry">ВЫХОД</string>
+    <string name="dr_exit">ВЫХОД</string>
+
+
+    <string-array name="nav_drawer_items_entry">
+        <item> Май авто</item>
+        <item> Поиск</item>
+        <item> Мои заказы</item>
+        <item> Настройки</item>
+        <item> Вход</item>
+    </string-array>
+    <string-array name="nav_drawer_items_exit">
+        <item>КАРТА</item>
+        <item>ПОИСК</item>
+        <item> МОИ ЗАКАЗЫ</item>
+        <item> НАСТРОЙКИ</item>
+        <item> ВЫХОД</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_carwash">Ближайшая автомойка</string>
+    <string name="title_activity_carwash_map">Map</string>
+    <string name="title_activity_carwash_otzyv">Отзывы</string>
+    <string name="title_activity_carwash_services">CarwashServicesActivity</string>
+    <string name="title_activity_carwash_car_model">CarwashCarModel</string>
+    <string name="title_activity_carwash_search_result">CarwashSearchResultActivity</string>
+    <string name="hint_region">Регион</string>
+    <string name="title_activity_car_wash_login">CarWashLoginActivity</string>
+    <string name="title_activity_carwash_service_search">CarwashServiceSearchActivity</string>
+    <string name="title_offline_carwash">Эта мойка\nещё не доступна\nдля онлайн записи.</string>
+    <string name="title_offline_carwash_small">Сообщите нам, если Вы хотите использовать\nзапись онлайн для этой автомойки.</string>
+    <string name="title_activity_current_order">CurrentOrder</string>
+    <string name="title_activity_maps_activitysss">Map</string>
+
+</resources>

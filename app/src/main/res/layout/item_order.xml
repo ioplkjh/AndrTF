@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.allmoyki.may.widget.state.StateLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/lOrder"
+    android:layout_height="match_parent"
+    android:background="@color/car_wash_bg_color"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/vDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+         android:background="@color/text_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvOrderStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Текущий заказ:"
+                    android:textColor="@color/text_color"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvOrderTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="09-30"
+                    android:textColor="@color/btn_color_get_code"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvOrderDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(2015-08-20)"
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Автомойка:"
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvOrderCarwashName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Ближайшая автомойка"
+                    android:textColor="@color/btn_color_get_code"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvOrderAdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="г. Запорожье , ул. Победы, 7"
+                android:textColor="@color/text_color"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvOrderCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600 руб"
+                android:textColor="@color/text_color"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:src="@mipmap/icon_aarrow" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lReview"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E0E0E0">
+        <TextView
+            android:id="@+id/tvReview"
+            android:maxLines="1"
+            android:paddingLeft="25dp"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:text="г. Запорожье , ул. erg er greg erg er g weg erg er Победы, 7"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/tvAnswer"
+            android:maxLines="1"
+            android:paddingLeft="70dp"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:text="г. Запорожье , ул. erg er greg erg er g weg erg er Победы, 7"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</ru.allmoyki.may.widget.state.StateLinearLayout>

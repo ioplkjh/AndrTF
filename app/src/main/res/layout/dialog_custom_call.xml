@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_marker_map_desc"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <ru.allmoyki.may.widget.state.StateImageButton
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@mipmap/popup_green_phone" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="match_parent"
+        android:background="#343434"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+380503414221"
+        android:textColor="#343434"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="match_parent"
+        android:background="#343434"
+        android:paddingLeft="10dp" />
+
+    <ru.allmoyki.may.widget.state.StateImageButton
+        android:id="@+id/btnDismis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@mipmap/popup_red_phone" />
+
+</LinearLayout>
