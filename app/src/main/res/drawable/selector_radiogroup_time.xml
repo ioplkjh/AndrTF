@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/car_button_aktive" android:state_checked="true" android:state_enabled="true" />
+    <item android:drawable="@mipmap/car_button" android:state_checked="false" android:state_enabled="true" />
+    <item android:drawable="@mipmap/car_button_not_aktive" android:state_checked="false" android:state_enabled="false" />
+    <item android:drawable="@mipmap/car_button_not_aktive" android:state_checked="true" android:state_enabled="false" />
+</selector>

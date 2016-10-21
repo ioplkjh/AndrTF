@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/car_wash_bg_color"
+    android:orientation="vertical">
+    <include layout="@layout/header_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1b2224">
+
+        <EditText
+            android:id="@+id/eSearch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_edit_search_model"
+            android:drawableLeft="@mipmap/icon_search"
+            android:drawablePadding="15dp"
+            android:hint="Поиск"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/lMyCar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvMyCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dividerHeight="1dp" />
+
+            <ru.allmoyki.may.widget.state.StateButton
+                android:id="@+id/btnAddCar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn_reg_line"
+                android:gravity="center"
+                android:text="ДОБАВИТЬ МАШИНУ"
+                android:textColor="@color/btn_color_get_code" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_conteiner_drawer"
+    android:layout_width="290dp"
+    android:layout_height="match_parent"
+    android:background="@color/presed_color_normal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lMap"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@string/dr_map"
+            android:src="@mipmap/icon_map" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:paddingRight="40dp"
+                android:text="@string/dr_map"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/list_divider" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lSearch"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+       <!-- <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@string/dr_search"
+            android:src="@mipmap/icon_search" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:paddingRight="40dp"
+                android:text="@string/dr_search"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/list_divider" />
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lOrders"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@string/dr_orders"
+            android:src="@mipmap/icon_zakazy" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:paddingRight="40dp"
+                android:text="@string/dr_orders"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:textColor="@color/text_color"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/list_divider" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lSettings"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@string/dr_settings"
+            android:src="@mipmap/icon_nastroyki" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingRight="40dp"
+            android:text="@string/dr_settings"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#E0E0E0" />
+
+
+    <LinearLayout
+        android:id="@+id/lEnty"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@string/dr_entry"
+            android:src="@mipmap/icon_vhod_vyhod" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:paddingRight="40dp"
+            android:text="@string/dr_entry"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_divider" />
+</LinearLayout>

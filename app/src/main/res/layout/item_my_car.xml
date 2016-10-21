@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ru.allmoyki.may.widget.state.StateTextView
+        android:id="@+id/tvModel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="17dp"
+        android:background="@color/car_wash_bg_color"
+        android:textColor="@color/btn_color_get_code"
+        android:gravity="center_vertical"
+        android:text="Mazda"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#666666"/>
+
+
+</LinearLayout>

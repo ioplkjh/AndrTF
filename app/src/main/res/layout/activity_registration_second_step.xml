@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/logo_reg" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <ru.allmoyki.may.widget.masked_edit_text.MaskedEditText
+            android:id="@+id/eSmsCode"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_edittext_reg"
+            android:drawableLeft="@mipmap/password"
+            android:drawablePadding="15dp"
+            android:hint="@string/hint_code_from_sms"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLines="1"
+
+            android:singleLine="true"
+            android:textColor="@color/norm_text_color"
+            android:textColorHighlight="#666666"
+            android:textSize="13dp"
+            app:char_representation="c"
+            app:mask="cccc" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="1dp" />
+
+        <ru.allmoyki.may.widget.state.StateButton
+
+            android:id="@+id/btn_confirm_sms_code"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_btn_reg"
+            android:gravity="center"
+            android:text="@string/confirm_sms_code"
+            android:textColor="@android:color/white"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+
+    <ru.allmoyki.may.widget.state.StateButton
+        android:id="@+id/btn_get_sms_code"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_btn_reg_line"
+        android:gravity="center"
+        android:text="@string/get_sms_code"
+        android:textColor="@color/btn_color_get_code" />
+
+</LinearLayout>

@@ -1,0 +1,297 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/car_wash_bg_color"
+    tools:context=".may.fragments.FragmentSearchCarwash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="По услугам:"
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/imgSWiFi"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/uslugi_icon_wifi" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+            <ImageView
+                android:id="@+id/imgSCoffee"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/uslugi_icon_coffee" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imgSPayment"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/uslugi_icon_payment" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imgSComfort"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/uslugi_icon_comfort" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imgSWc"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/uslugi_icon_wc" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="По рейтингу:"
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <RatingBar
+
+            android:id="@+id/ratingBar"
+            style="@style/CustomRatingBarB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:stepSize="1"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="По занятости:"
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <RadioGroup
+            android:id="@+id/rGDate"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_date"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rToday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_selector_radiogroup_date"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="Сегодня"
+                android:textColor="@android:color/white"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rTomorrow"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_selector_radiogroup_date"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="Завтра"
+                android:textColor="@android:color/white"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rYesterday"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_selector_radiogroup_date"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="Послезавтра"
+                android:textColor="@android:color/white"
+                android:textSize="13dp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="По времени:"
+                android:textColor="@color/text_color"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvTimeSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="00:00 - 00:00"
+                android:textColor="@color/text_color"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <ru.allmoyki.may.widget.RangeSeekBar
+            android:id="@+id/seekBarSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="#9e9e9e" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="По стомости:"
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ru.allmoyki.may.widget.state.StateButton
+                android:id="@+id/btnCar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn_reg_line"
+                android:gravity="center"
+                android:text="МАШИНА"
+                android:textColor="@color/btn_color_get_code" />
+
+            <ru.allmoyki.may.widget.state.StateButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/btnService"
+                android:layout_weight="1"
+                android:background="@drawable/round_btn_reg_line"
+                android:gravity="center"
+                android:text="УСЛУГА"
+                android:textColor="@color/btn_color_get_code" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvService"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text=""
+                    android:textColor="@color/text_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <ru.allmoyki.may.widget.state.StateImageButton
+                android:id="@+id/btnClear"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@mipmap/icon_close"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <ru.allmoyki.may.widget.state.StateButton
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_btn_reg"
+            android:gravity="center"
+            android:text="НАЙТИ"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

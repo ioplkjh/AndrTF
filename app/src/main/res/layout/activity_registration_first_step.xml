@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ePhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_edittext_reg"
+            android:clickable="false"
+            android:drawableLeft="@mipmap/phone"
+            android:drawablePadding="15dp"
+            android:enabled="false"
+            android:hint="@string/hint_number_phone"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/norm_text_color"
+            android:textColorHighlight="#666666"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/eName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_edittext_reg"
+            android:drawableLeft="@mipmap/person"
+            android:drawablePadding="15dp"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName|textCapSentences"
+            android:lines="1"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/norm_text_color"
+
+            android:textColorHighlight="#666666"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_edittext_reg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/region" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="@string/hint_region"
+                    android:textColor="#666666"
+                    android:textSize="18dp" />
+
+                <ru.allmoyki.may.widget.NoDefaultSpinner
+                    android:id="@+id/planets_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:paddingLeft="7dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:src="@mipmap/button_spisok" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <ru.allmoyki.may.widget.masked_edit_text.MaskedEditText
+            android:id="@+id/eSmsCode"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_edittext_reg"
+            android:drawableLeft="@mipmap/password"
+            android:drawablePadding="15dp"
+            android:hint="@string/hint_code_from_sms"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLines="1"
+
+            android:singleLine="true"
+            android:textColor="@color/norm_text_color"
+            android:textColorHighlight="#666666"
+            android:textSize="13dp"
+            app:char_representation="c"
+            app:mask="cccc" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="1dp" />
+
+        <ru.allmoyki.may.widget.state.StateButton
+
+            android:id="@+id/btn_confirm_sms_code"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_btn_reg"
+            android:gravity="center"
+            android:text="@string/confirm_sms_code"
+            android:textColor="@android:color/white"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+
+    <ru.allmoyki.may.widget.state.StateButton
+        android:id="@+id/btn_get_sms_code"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_btn_reg_line"
+        android:gravity="center"
+        android:text="@string/get_sms_code"
+        android:textColor="@color/btn_color_get_code" />
+
+</LinearLayout>
