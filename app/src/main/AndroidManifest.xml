@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.allmoyki.may" >
+    package="ru.allmoyki.tc68" >
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="ru.allmoyki.may.permission.C2D_MESSAGE"
+        android:name="ru.allmoyki.tc68.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.app.permission.C2D_MESSAGE" />
@@ -38,7 +38,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="ru.allmoyki.may" />
+                <category android:name="ru.allmoyki.tc68" />
             </intent-filter>
         </receiver>
 

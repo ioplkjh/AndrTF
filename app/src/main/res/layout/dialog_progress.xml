@@ -6,7 +6,7 @@
     android:background="@android:color/transparent"
     android:orientation="vertical">
 
-    <ru.allmoyki.may.widget.ProgressWheel
+    <ru.allmoyki.tc68.widget.ProgressWheel
         android:id="@+id/progress_wheel"
         android:background="@android:color/transparent"
         android:layout_width="80dp"

@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:paddingBottom="10dp">
 
-    <ru.allmoyki.may.widget.state.StateTextView
+    <ru.allmoyki.tc68.widget.state.StateTextView
         android:id="@+id/tvModel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,7 +17,7 @@
         android:textColor="@color/text_color"
         android:textSize="17dp" />
 
-    <ru.allmoyki.may.widget.state.StateImageButton
+    <ru.allmoyki.tc68.widget.state.StateImageButton
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/car_wash_bg_color"
-    tools:context=".may.activity.CarwashServicesActivity">
+    tools:context=".tc68.activity.CarwashServicesActivity">
 
     <include layout="@layout/header_bar" />
 
@@ -25,7 +25,7 @@
 
     </LinearLayout>
 
-    <ru.allmoyki.may.widget.state.StateTextView
+    <ru.allmoyki.tc68.widget.state.StateTextView
         android:id="@+id/btnGetServices"
         android:layout_width="match_parent"
         android:layout_height="100dp"

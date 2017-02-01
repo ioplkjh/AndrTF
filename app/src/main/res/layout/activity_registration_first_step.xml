@@ -80,7 +80,7 @@
                     android:textColor="#666666"
                     android:textSize="18dp" />
 
-                <ru.allmoyki.may.widget.NoDefaultSpinner
+                <ru.allmoyki.tc68.widget.NoDefaultSpinner
                     android:id="@+id/planets_spinner"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -104,7 +104,7 @@
         android:layout_marginTop="70dp"
         android:orientation="horizontal">
 
-        <ru.allmoyki.may.widget.masked_edit_text.MaskedEditText
+        <ru.allmoyki.tc68.widget.masked_edit_text.MaskedEditText
             android:id="@+id/eSmsCode"
             android:layout_width="wrap_content"
             android:layout_height="55dp"
@@ -128,7 +128,7 @@
             android:layout_width="4dp"
             android:layout_height="1dp" />
 
-        <ru.allmoyki.may.widget.state.StateButton
+        <ru.allmoyki.tc68.widget.state.StateButton
 
             android:id="@+id/btn_confirm_sms_code"
             android:layout_width="wrap_content"
@@ -142,7 +142,7 @@
     </LinearLayout>
 
 
-    <ru.allmoyki.may.widget.state.StateButton
+    <ru.allmoyki.tc68.widget.state.StateButton
         android:id="@+id/btn_get_sms_code"
         android:layout_width="match_parent"
         android:layout_height="55dp"

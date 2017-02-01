@@ -127,7 +127,7 @@
         android:paddingBottom="4dp"
         android:paddingTop="4dp">
 
-        <ru.allmoyki.may.widget.state.StateImageButton
+        <ru.allmoyki.tc68.widget.state.StateImageButton
             android:id="@+id/btnMap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
             android:background="@android:color/transparent"
             android:src="@mipmap/button_map" />
 
-        <ru.allmoyki.may.widget.state.StateImageButton
+        <ru.allmoyki.tc68.widget.state.StateImageButton
             android:id="@+id/btnNavigator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
             android:background="@android:color/transparent"
             android:src="@mipmap/button_proezd" />
 
-        <ru.allmoyki.may.widget.state.StateImageButton
+        <ru.allmoyki.tc68.widget.state.StateImageButton
             android:id="@+id/btnCall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
             android:background="@android:color/transparent"
             android:src="@mipmap/button_phone" />
 
-        <ru.allmoyki.may.widget.state.StateImageButton
+        <ru.allmoyki.tc68.widget.state.StateImageButton
             android:id="@+id/btnOtzyv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -192,7 +192,7 @@
 
     </LinearLayout>
 
-    <ru.allmoyki.may.widget.state.StateButton
+    <ru.allmoyki.tc68.widget.state.StateButton
          android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="15dp"

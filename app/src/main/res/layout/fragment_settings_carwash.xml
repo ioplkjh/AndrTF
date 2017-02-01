@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:background="@color/car_wash_bg_color"
-    tools:context=".may.fragments.FragmentSettingsCarwash">
+    tools:context=".tc68.fragments.FragmentSettingsCarwash">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -142,7 +142,7 @@
                         android:textColor="#666666"
                         android:textSize="18dp" />
 
-                    <ru.allmoyki.may.widget.NoDefaultSpinner
+                    <ru.allmoyki.tc68.widget.NoDefaultSpinner
                         android:layout_margin="2dp"
                         android:id="@+id/planets_spinner"
                         android:layout_width="match_parent"
@@ -182,7 +182,7 @@
                 android:layout_marginTop="7dp"
                 android:scrollbars="vertical" />
 
-            <ru.allmoyki.may.widget.state.StateButton
+            <ru.allmoyki.tc68.widget.state.StateButton
                 android:id="@+id/btnAddCar"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
@@ -198,7 +198,7 @@
                 android:layout_marginTop="15dp"
                 android:background="@android:color/black" />
 
-            <ru.allmoyki.may.widget.state.StateButton
+            <ru.allmoyki.tc68.widget.state.StateButton
                 android:id="@+id/btn_sen_user_info"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"

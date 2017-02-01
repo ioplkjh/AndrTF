@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <ru.allmoyki.may.widget.state.StateTextView
+    <ru.allmoyki.tc68.widget.state.StateTextView
         android:id="@+id/tvService"
         android:layout_width="match_parent"
         android:layout_height="50dp"

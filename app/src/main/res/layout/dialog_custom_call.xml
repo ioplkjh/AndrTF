@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     android:padding="6dp">
 
-    <ru.allmoyki.may.widget.state.StateImageButton
+    <ru.allmoyki.tc68.widget.state.StateImageButton
         android:id="@+id/btnCall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         android:background="#343434"
         android:paddingLeft="10dp" />
 
-    <ru.allmoyki.may.widget.state.StateImageButton
+    <ru.allmoyki.tc68.widget.state.StateImageButton
         android:id="@+id/btnDismis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

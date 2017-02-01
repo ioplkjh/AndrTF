@@ -42,7 +42,7 @@
 
 
 
-    <ru.allmoyki.may.widget.state.StateButton
+    <ru.allmoyki.tc68.widget.state.StateButton
         android:id="@+id/btn_get_sms_code"
         android:layout_width="match_parent"
         android:layout_height="55dp"

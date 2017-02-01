@@ -42,7 +42,7 @@
                 android:layout_weight="1"
                 android:dividerHeight="1dp" />
 
-            <ru.allmoyki.may.widget.state.StateButton
+            <ru.allmoyki.tc68.widget.state.StateButton
                 android:id="@+id/btnAddCar"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"

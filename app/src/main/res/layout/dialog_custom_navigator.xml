@@ -7,7 +7,7 @@
     android:paddingLeft="15dp"
     android:paddingRight="15dp">
 
-    <ru.allmoyki.may.widget.state.StateTextView
+    <ru.allmoyki.tc68.widget.state.StateTextView
         android:id="@+id/tvYandex"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
@@ -24,7 +24,7 @@
         android:layout_height="1dp"
         android:background="#343434" />
 
-    <ru.allmoyki.may.widget.state.StateTextView
+    <ru.allmoyki.tc68.widget.state.StateTextView
         android:id="@+id/tvStandart"
         android:layout_width="match_parent"
         android:layout_marginRight="20dp"
@@ -41,7 +41,7 @@
         android:layout_height="1dp"
         android:background="#343434" />
 
-    <ru.allmoyki.may.widget.state.StateTextView
+    <ru.allmoyki.tc68.widget.state.StateTextView
         android:id="@+id/tvCancel"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
